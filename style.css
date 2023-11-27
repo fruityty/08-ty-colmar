@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex;
+    /* background-color: red; */
+    height: 64px;
+    align-items: center;
+    
+}
+
+.header__colmar {
+    display: flex;
+    height: 32px;
+    margin-left: 24px;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+.header__colmar__name {
+    color: gray;
+}
+
+.header__colmar__academy {
+    color: lightgray;
+}
+
+.header__nav {
+    display: flex;
+    margin-right: 24px;
+    height: 32px;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+
+.nav__list {
+    display: flex;
+    gap: 16px;
+}
+
+.nav__item {
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
