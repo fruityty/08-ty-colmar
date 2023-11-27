@@ -181,10 +181,6 @@ section.main__thesis .news__left__subheadline {
     padding-bottom: 8px;
 }
 
-#background-lightgrey {
-    /* background-color: lightgrey; */
-}
-
 .main__learning {
     display: flex;
     flex-direction: column;
