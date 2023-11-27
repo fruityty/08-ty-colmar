@@ -52,6 +52,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: wheat;
+    width: 100%;
 }
 
 section {
@@ -65,9 +66,8 @@ section {
 
 }
 
-.left {
+.start__left {
     display: flex;
-    background-color: aqua;
     width: 60%;
 }
 
@@ -79,12 +79,17 @@ section {
 .start__right {
     display: flex;
     flex-direction: column;
+    width: 40%;
     gap: 24px;
-    background-color: blueviolet
+    
 }
 
 .start__right__button {
-    width: 100%;
+    width: 50%;
+    color: white;
+    background-color: gray;
+    border: none;
+    padding: 8px;
 }
 
 .main__news {
@@ -95,6 +100,11 @@ section {
 
 .news__left {
     flex-direction: column;
+    width: 60%;
+}
+
+.news__left__information {
+    max-width: 100%;
 }
 
 .news__left__headline {
@@ -110,7 +120,7 @@ section {
     display: flex;
     flex-direction: column;
     width: 40%;
-    background-color: red;
+    /* background-color: red; */
     height: 100%;
     align-self: stretch;
 }
@@ -136,4 +146,91 @@ section {
     justify-content: center;
     padding: 24px;
     gap: 8px;
+}
+
+section.main__learning {
+    background-color: lightgray;
+}
+
+
+section.main__thesis {
+    background-color: whitesmoke;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column ;
+    gap: 0px
+}
+
+.main__thesis__col1 {
+    padding-bottom: 32px;
+}
+
+.main__thesis__col2 {
+    display: flex;
+}
+
+.main__thesis__col2 div.news__left {
+    padding-right: 24px;
+}
+section.main__thesis .news__left__subheadline {
+    padding-bottom: 0px;
+}
+
+#reimagine {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+#background-lightgrey {
+    background-color: lightgrey;
+}
+
+.main__learning {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-top: 32px;
+}
+
+.main__learning__col2 {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+    flex: 1;
+}
+
+.main__learning__box {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+     
+}
+
+.main__learning__box__topimg {
+    width: 100%;
+    height: auto;
+} 
+
+.main__learning__box__bot {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+} 
+
+footer {
+    padding: 16px;
+    padding-left: 24px;
+    color:gray;
+    display: flex;
+}
+
+.footer__r {
+    flex: 1;
+    text-align: end;
 }
