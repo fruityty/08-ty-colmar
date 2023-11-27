@@ -7,15 +7,12 @@
 body {
     display: flex;
     flex-direction: column;
-    
 }
 
 header {
     display: flex;
-    /* background-color: red; */
     height: 64px;
     align-items: center;
-    
 }
 
 .header__colmar {
@@ -23,7 +20,6 @@ header {
     height: 32px;
     margin-left: 24px;
     align-items: center;
-    /* background-color: blueviolet; */
 }
 
 .header__colmar__name {
@@ -41,8 +37,6 @@ header {
     flex: 1;
     justify-content: flex-end;
     align-items: center;
-    /* background-color: aqua; */
-    
 }
 
 .nav__list {
@@ -58,4 +52,88 @@ main {
     display: flex;
     flex-direction: column;
     background-color: wheat;
+}
+
+section {
+    display: flex;
+    background-color: lightgray;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    gap: 24px;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    background-color: aqua;
+    width: 60%;
+}
+
+.start__left__banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.start__right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: blueviolet
+}
+
+.start__right__button {
+    width: 100%;
+}
+
+.main__news {
+    display: flex;
+    background-color: whitesmoke;
+    padding-bottom: 32px;
+}
+
+.news__left {
+    flex-direction: column;
+}
+
+.news__left__headline {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.news__left__subheadline {
+    padding-bottom: 32px;
+}
+
+.news__right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: red;
+    height: 100%;
+    align-self: stretch;
+}
+
+.news__right__box {
+    display: flex;
+    padding: 16px;
+}
+
+.news__right__box__lside {
+    display: flex;
+    width: 35%;
+}
+
+.news__right__boximg {
+    max-width: 100%;
+    height: auto;
+}
+
+.news__right__box__rside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
 }
