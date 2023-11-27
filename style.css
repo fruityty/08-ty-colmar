@@ -182,7 +182,7 @@ section.main__thesis .news__left__subheadline {
 }
 
 #background-lightgrey {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 
 .main__learning {
@@ -228,9 +228,187 @@ footer {
     padding-left: 24px;
     color:gray;
     display: flex;
+    background-color: whitesmoke;
 }
 
 .footer__r {
     flex: 1;
     text-align: end;
+}
+
+.header__mobile__nav {
+    display: none;
+}
+
+.main__thesis__col3 {
+    display: none;
+}
+
+@media screen and (max-width: 625px) {
+    * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    
+    .header__colmar {
+        display: none;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__mobile__nav {
+        display: flex;
+        flex: 1;
+        height: 64px;
+        justify-content: center;
+
+    }
+
+    .nav__list {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: space-around;
+    }
+    .nav__item {
+        align-items: center;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    .main__start {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .start__left {
+        width: 100%;
+
+    }
+
+    .start__right {
+        width: 100%;
+        padding-left: 16px;
+        padding-bottom: 32px;
+        padding-top: 32px;
+        padding-right: 16px;
+        gap: 0px;
+    }
+
+    .start__right__subheadline {
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+
+    .start__right__button {
+        width: 100%;
+
+    }
+
+    .news__left {
+        display: none;
+    }
+
+    .news__right {
+        flex: 1;
+        padding: 16px;
+        gap: 32px;
+    }
+
+    .news__right__box {
+        flex-direction: column;
+        flex: 1;
+        padding: 0px;
+    }
+
+    .news__right__box__lside {
+        width: 100%;
+        height: 100%;
+    }
+
+    .news__right__boximg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .news__right__box__rside {
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+        padding-bottom: 32px;
+    }
+
+
+    .main__news {
+        padding-bottom: 0px;
+    }
+    .main__learning {
+        padding-top: 16px;
+        gap: 8px;
+        padding-bottom: 32px;
+        
+    }
+
+    section.main__learning {
+        background-color: whitesmoke;
+    }
+
+    .main__learning__col1 {
+        padding-bottom: 8px;
+    }
+
+    .main__learning__col2 {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 8px;
+    }
+    
+    .main__learning__box__top {
+        display: none; 
+    }
+
+    .main__learning__box__bot {
+        background-color: lightgrey; 
+    }
+
+    .main__learning__course {
+        display: none;
+    }
+
+    .main__learning__boxsubheadline  {
+        display: none;
+    }
+
+    section.main__thesis {
+        padding-bottom: 24px ;
+    }
+    .main__thesis__col2{
+        display: none;
+    }
+
+    .main__thesis__col1 {
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+
+    .main__thesis__col3 {
+        display: block;
+        width: 100%;
+    }
+
+   
+
+    
+    
+    
+
+
 }
